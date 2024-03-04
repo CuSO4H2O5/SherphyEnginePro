@@ -1,0 +1,1 @@
+cmake -S . -B Build -DSHERPHY_DEBUG=1

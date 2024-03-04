@@ -1,0 +1,36 @@
+[submodule "3rd/imgui"]
+	path = 3rd/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "3rd/gltf"]
+	path = 3rd/gltf
+	url = https://github.com/syoyo/tinygltf.git
+[submodule "3rd/dxc"]
+	path = 3rd/dxc
+	url = https://github.com/microsoft/DirectXShaderCompiler.git
+[submodule "3rd/glfw"]
+	path = 3rd/glfw
+	url = https://github.com/glfw/glfw.git
+[submodule "3rd/concurrentqueue"]
+	path = 3rd/concurrentqueue
+	url = https://github.com/cameron314/concurrentqueue.git
+[submodule "3rd/jolt"]
+	path = 3rd/jolt
+	url = https://github.com/jrouwe/JoltPhysics.git
+[submodule "3rd/physx5"]
+	path = 3rd/physx5
+	url = https://github.com/NVIDIA-Omniverse/PhysX.git
+[submodule "3rd/eigen"]
+	path = 3rd/eigen
+	url = https://github.com/PX4/eigen.git
+[submodule "3rd/eastl"]
+	path = 3rd/eastl
+	url = https://github.com/electronicarts/EASTL.git
+[submodule "3rd/vkb"]
+	path = 3rd/vkb
+	url = https://github.com/charles-lunarg/vk-bootstrap.git
+[submodule "3rd/volk"]
+	path = 3rd/volk
+	url = https://github.com/zeux/volk.git
+[submodule "3rd/vkh"]
+	path = 3rd/vkh
+	url = https://github.com/KhronosGroup/Vulkan-Hpp.git

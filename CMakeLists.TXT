@@ -1,0 +1,11 @@
+# --- Options ---
+
+
+# --- Definations ---
+if(CMAKE_SIZEOF_VOID_P EQUAL 8)
+  set(WIN64 1)
+  ADD_DEFINITIONS(-DWIN64)
+endif()
+
+
+
