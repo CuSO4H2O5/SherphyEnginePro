@@ -9,19 +9,18 @@ file(GLOB_RECURSE SOURCES "*.cpp")
 add_library(${TARGET_NAME} ${HEADERS} ${SOURCES})
 
 #deps
-add_dependencies(${TARGET_NAME} )
+# add_dependencies(${TARGET_NAME} )
 
 #precompile header
-target_precompile_headers()
 
 #keep structure
 source_group(TREE "${CMAKE_SOURCE_DIR}" FILES ${HEADERS} ${SOURCES})
 
 #link
-target_link_libraries()
+# target_link_libraries()
 
-target_include_directories()
+# target_include_directories()
 
-target_compile_definations()
+# target_compile_definations()
 
 

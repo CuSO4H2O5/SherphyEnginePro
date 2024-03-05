@@ -1,3 +1,9 @@
+project(SherphyEngine CXX)
+cmake_minimum_required(VERSION 3.2.1)
+
+
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_STANDARD 20)
 # --- Options ---
 
 
@@ -7,4 +13,25 @@ if(CMAKE_SIZEOF_VOID_P EQUAL 8)
   ADD_DEFINITIONS(-DWIN64)
 endif()
 
+include(cmake/precompile.cmake)
 
+set(SHERPHY_ENGINE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
+
+
+# 获取目录下所有子目录
+# file(GLOB subdirectories LIST_DIRECTORIES true "${CMAKE_SOURCE_DIR}/*")
+
+
+# # 遍历子目录并添加
+# foreach(subdirectory ${subdirectories})
+#     if(IS_DIRECTORY ${subdirectory})
+#         if(EXISTS ${subdirectory}/CMakeLists.txt)
+#             add_subdirectory(${subdirectory})
+#         endif()
+#     endif()
+# endforeach()
+
+add_subdirectory(EngineCore)
+add_subdirectory(Engine)
+add_subdirectory(Main)
+add_subdirectory(Run)
