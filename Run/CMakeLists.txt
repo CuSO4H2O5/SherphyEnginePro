@@ -17,9 +17,9 @@ add_dependencies(${TARGET_NAME} Main)
 source_group(TREE "${CMAKE_SOURCE_DIR}" FILES ${HEADERS} ${SOURCES})
 
 #link
-# target_link_libraries()
+target_link_libraries(${TARGET_NAME} PRIVATE Main)
 
-# target_include_directories()
+# target_include_directories(${TARGET_NAME})
 
 # target_compile_definations()
 

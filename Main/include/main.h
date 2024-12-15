@@ -1,6 +1,6 @@
 #pragma once
 
-namespace shpy
+namespace SHPY
 {
     class Engine;
     class Main

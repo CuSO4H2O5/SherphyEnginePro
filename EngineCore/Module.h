@@ -1,6 +1,6 @@
 
 
-namespace shpy
+namespace SHPY
 {
     class RTModule
     {
@@ -21,4 +21,4 @@ namespace shpy
 
         SHPY_API virtual void deInit() = 0;
     }
-} // namespace shpy
+} // namespace SHPY

@@ -3,7 +3,7 @@
 
 int realMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
-    shpy::Main main;
+    SHPY::Main main;
     main.run();
     return 0;
 }

@@ -1,7 +1,7 @@
 #include "main.h"
 #include "engine.h"
 
-namespace shpy
+namespace SHPY
 {
     Main::Main()
     {
@@ -16,17 +16,13 @@ namespace shpy
     void Main::run()
     {
         m_running = true;
-        m_engine->run();
+        m_engine->init();
 
         while(m_engine->update())
         {
 #ifdef SHPY_DEBUG
 #endif            
         }
-    }
-
-    void Main::stop()
-    {
         m_running = false;
     }
 }

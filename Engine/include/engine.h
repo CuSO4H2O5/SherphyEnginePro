@@ -1,7 +1,7 @@
 #pragma once
 
 
-namespace Engine
+namespace SHPY
 {
     class Engine
     {
@@ -9,7 +9,9 @@ namespace Engine
         Engine();
         ~Engine();
 
+        bool init();
         bool update();
+        bool stop();
     private:
 
     };
