@@ -13,6 +13,9 @@ namespace SHPY
         bool update();
         bool stop();
     private:
-
+        void swapData();
+    private:
+        bool m_is_new_world;
+        WorldData* m_world_data;
     };
 }

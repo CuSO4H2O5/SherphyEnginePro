@@ -9,7 +9,7 @@ file(GLOB_RECURSE SOURCES "*.cpp")
 add_library(${TARGET_NAME} ${HEADERS} ${SOURCES})
 
 #deps
-add_dependencies(${TARGET_NAME} EngineCore)
+# add_dependencies(${TARGET_NAME})
 
 #precompile header
 
@@ -17,7 +17,7 @@ add_dependencies(${TARGET_NAME} EngineCore)
 source_group(TREE "${CMAKE_SOURCE_DIR}" FILES ${HEADERS} ${SOURCES})
 
 #link
-target_link_libraries(${TARGET_NAME} PUBLIC EngineCore)
+# target_link_libraries(${TARGET_NAME} PUBLIC)
 
 target_include_directories(${TARGET_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 

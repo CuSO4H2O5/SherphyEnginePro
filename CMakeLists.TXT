@@ -31,8 +31,6 @@ set(SHERPHY_ENGINE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 #     endif()
 # endforeach()
 
-add_subdirectory(EngineCore)
 add_subdirectory(Engine)
 add_subdirectory(Main)
 add_subdirectory(Run)
-add_subdirectory(OldEngine)
